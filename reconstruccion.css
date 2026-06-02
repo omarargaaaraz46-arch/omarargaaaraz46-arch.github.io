@@ -1,0 +1,40 @@
+/* Color de fondo general y fuente */
+body {
+    background-color: #e0f7fa;     /* celeste claro */
+    color: #004d40;                /* verde oscuro para el texto */
+    font-family: Arial, sans-serif;
+    text-align: center;            /* centra todo el texto por defecto */
+}
+
+/* Títulos */
+h1 {
+    color: #00695c;                /* tono verde */
+}
+
+/* Párrafos */
+p {
+    color: #004d40;
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto 15px auto;      /* centra los párrafos */
+}
+
+/* Imagen */
+img {
+    border: 3px solid #00796b;     /* borde verde */
+    border-radius: 10px;           /* esquinas redondeadas */
+}
+
+/* Enlace a la página 2 */
+a {
+    display: inline-block;
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: #004d40;     /* cambia el color al pasar el mouse */
+}

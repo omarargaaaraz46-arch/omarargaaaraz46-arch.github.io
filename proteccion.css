@@ -1,0 +1,56 @@
+/* Fondo y texto general */
+body {
+    background-color: #e8f5e9;  /* verde muy claro */
+    font-family: Arial, sans-serif;
+    color: #1b5e20;             /* verde oscuro */
+    margin: 20px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #2e7d32;
+}
+
+h2 {
+    color: #388e3c;
+}
+
+/* Párrafos */
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* Lista */
+ul {
+    background-color: #c8e6c9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Imagen centrada */
+.imagen-centro {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Enlace para volver */
+.volver {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #1b5e20;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4caf50;
+}

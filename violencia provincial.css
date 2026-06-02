@@ -1,0 +1,61 @@
+/* Fondo y texto general */
+body {
+    background-color: #e0f7fa;     /* celeste claro */
+    color: #004d40;                /* verde oscuro */
+    font-family: Arial, sans-serif;
+    text-align: center;            /* centra títulos y texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Títulos */
+h1 {
+    color: #00695c;                /* verde más intenso */
+    margin-top: 20px;
+}
+
+/* Párrafos */
+p {
+    color: #004d40;
+    font-size: 16px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* Lista ordenada */
+ol {
+    text-align: left;              /* alinea los ítems a la izquierda */
+    display: inline-block;         /* centra la lista en la página */
+    background-color: #ffffff;     /* fondo blanco */
+    border: 2px solid #00796b;     /* borde verde */
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: 16px;
+}
+
+/* Elementos de la lista */
+li {
+    margin: 5px 0;
+}
+
+/* Imágenes */
+img {
+    border: 3px solid #00796b;     /* borde verde */
+    border-radius: 10px;           /* esquinas redondeadas */
+    margin: 10px;
+}
+
+/* Enlace (botón al formulario) */
+a {
+    display: inline-block;
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+a:hover {
+    background-color: #004d40;     /* color más oscuro al pasar el mouse */
+}
